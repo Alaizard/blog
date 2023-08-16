@@ -4,9 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build"
+    "build": "prisma generate && prisma migrate deploy && next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
